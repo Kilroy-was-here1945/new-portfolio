@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dallin Johnson's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main class="btns-container">
+        <h1 href="parts.html" class="finder">Dallin Johnson's Portfolio<h1>  
+            <button id="home" class="ob" type="button" onclick="window.location.href='resume.html'">Resume</button>
+            <button id="VR" class="ob" type="button" onclick="window.location.href='experience.html'">Experience</button>
+            <button id="pc" class="ob" type="button" onclick="window.location.href='contact.html'">Contact info</button>
+            <button id="phones" class="ob" type="button" onclick="window.location.href='projects.html'">Projects</button>
+            <button id="processors" class="ob" type="button" onclick="window.location.href='about.html'">About me</button>
+            <button id="parts" class="ob" type="button" onclick="window.location.href='references.html'">References</button>
+            <button id="sell" class="ob" type="button" onclick="window.location.href='fun.html'">Fun stuff I made</button>
+            <button id="checkout" class="ob" type="button" onclick="window.location.href='interests.html'">Interests</button>
+            <div class="banner-section" id="img-container">
+        <h1 class="center">enter your information and we will send your products</h1>  
+
+    </main>
+    <form id="EnterInfo" class="center">
+        <input 
+            type='text'
+            id="bankInfo"
+            placeholder="banking number"/>
+        <input 
+            type='text'
+            id="price"
+            placeholder='address'/>
+        <input 
+            type='text'
+            id="email"
+            placeholder='email'/>
+        <button id="sell-btn" class="button4" style="background-color:red">BUY</button>
+    </form>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+	<script src="index.js"></script>
+  </body>
+</html>

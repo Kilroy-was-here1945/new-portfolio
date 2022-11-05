@@ -122,3 +122,7 @@
   transition: all 0.2s;
   background-color:black;
 }
+
+.pfp{
+  clip-path: circle();
+}
